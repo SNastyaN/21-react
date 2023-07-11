@@ -6,8 +6,10 @@ function App() {
   return (
     <div className="App">
       <Chart
-  chartType="ScatterChart"
-  data={[["Age", "Weight"], [4, 5.5], [8, 12]]}
+  chartType="PieChart"
+  data={[["Element", "Percentage"],
+   ["Category 1", 4],
+   ["Category 2", 8],]}
   width="100%"
   height="400px"
   legendToggle
